@@ -1788,7 +1788,6 @@ var intro = ` *𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐓𝐀𝐍𝐆 𝐌𝐄�
 ├ 𝐔𝐦𝐮𝐫:
 ├ 𝐀𝐬𝐚𝐥:
 ├ 𝐆𝐞𝐧𝐝𝐞𝐫:
-└ 𝐉𝐞𝐧𝐢𝐬 𝐤𝐞𝐥𝐚𝐦𝐢𝐧:
 `
 client.sendMessage(from, intro, text, {quoted: ftrolMENU, contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true })
 break
