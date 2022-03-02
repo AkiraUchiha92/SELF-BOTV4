@@ -156,7 +156,7 @@ module.exports = client = async (client, mek) => {
 			}
 //━━━━━━━━━━━━━━━[ Terakhir ]━━━━━━━━━━━━━━━\\
 			const botNumber = client.user.jid
-			const ownerNumber = [`6283876159184@s.whatsapp.net`] 
+			const ownerNumber = [`6281327327914@s.whatsapp.net`] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			pushname = client.contacts[sender] != undefined ? client.contacts[sender].vname || client.contacts[sender].notify : undefined
@@ -745,7 +745,7 @@ Premium : ${isPremium? "Yes":"No"}
 
 ❏ Info Owner ❏
 Nama Owner : ${namaowner}
-Nomor : wa.me/6283876159184
+Nomor : wa.me/6281327327914
 
 ${prefix}ownermenu
 ${prefix}grupmenu
@@ -764,7 +764,7 @@ break
 case 'sc':
 case 'scrip':
 if (isBanned) return reply(mess.banned)
-reply2(`JANGAN LUPA SUBSCRIBE YouTube : MyZenix`)
+reply2(`JANGAN LUPA SUBSCRIBE YouTube : AKIRA YT CHANNEL`)
 break
 //══════════[ ASUPAN MENU ]════════════════════════════//
 case 'grupmenu':
